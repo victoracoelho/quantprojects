@@ -13,7 +13,6 @@ ifr <- RSI(price = price, n = 9)
 ifr <- na.omit(ifr)
 ema9 <- EMA(price, n = 9)
 sma20 <- SMA(price, n=20)
-rel_ema_sma <- Lag(ema9 / sma20)
 
 
 
